@@ -4,9 +4,6 @@
 composer install -n
 #composer install --no-dev --optimize-autoloader
 
-# Install node modules
-npm install -d
-
 # Create database
 bin/console d:s:u -f --no-interaction
 
