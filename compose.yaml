@@ -26,7 +26,7 @@ services:
     volumes:
       - db_data:/var/lib/mysql
       # Run init.sql on startup
-      - ./mysql-init-scripts:/docker-entrypoint-initdb.d/init.sql
+      - ./mysql-init-scripts:/docker-entrypoint-initdb.d
     networks:
       - backend
 
