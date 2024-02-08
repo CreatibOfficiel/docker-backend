@@ -10,9 +10,6 @@ npm install -d
 # Create database
 bin/console d:s:u -f --no-interaction
 
-# Fill database with fixtures
-#bin/console doctrine:fixtures:load --no-interaction
-
 # Clear cache
 bin/console cache:clear
 

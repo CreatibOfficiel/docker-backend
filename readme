@@ -1,0 +1,7 @@
+Développement d'une application PHP avec le framework Symfony 6.4
+
+Pour lancer symfony, vous pouvez utiliser la commande suivante :
+
+docker-compose up
+
+Pour accéder à l'application, ouvrez votre navigateur et rendez-vous à l'adresse suivante : http://localhost:8000
