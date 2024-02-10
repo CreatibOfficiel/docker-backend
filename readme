@@ -1,7 +1,24 @@
 Développement d'une application PHP avec le framework Symfony 6.4
 
-Pour lancer symfony, vous pouvez utiliser la commande suivante :
+Cloner le repo :
 
-docker-compose up
+git clone https://github.com/CreatibOfficiel/docker-backend
+
+Docker file
+
+Build l'image
+
+docker build -t symfony .
+
+Docker Compose
+
+Lors du premier lancement du docker compose faire un build
+
+docker compose build
+
+Puis lancer le docker compose
+
+docker compose up
 
 Pour accéder à l'application, ouvrez votre navigateur et rendez-vous à l'adresse suivante : http://localhost:8000
+Aller sur la page /article pour accéder au blog
